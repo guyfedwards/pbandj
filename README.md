@@ -8,6 +8,7 @@ make build
 ./pbandj -port 1337
 ```
 ### Docker 
+Docker image is available with `docker pull guyfedwards/pbandj` or you can build locally:
 ```sh
 docker build .
 docker run -p 1337:1337 --name pbandj <image_id>
